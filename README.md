@@ -140,3 +140,6 @@ Fun stuff with json:
 * slice                : (json list, start, end) -> given slice of the list
 * count                : (json list) -> number of elements
 * sum                  : (json list) -> sum of all values
+
+### 作者放弃维护了, fork了之后: git reset HEAD^ --hard;  git push -f
+http://christoph.ruegg.name/blog/git-howto-revert-a-commit-already-pushed-to-a-remote-reposit.html
