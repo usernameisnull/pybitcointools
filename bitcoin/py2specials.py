@@ -82,7 +82,7 @@ if sys.version_info.major == 2:
             val //= base
         return code_string[0] * max(minlen - len(result), 0) + result
 
-    def decode(string, base):
+    def decode(string, base): ### 这里可以用int(string, 16)之类的形式直接生成吧？至少在16进制是这样的 。。。
         base = int(base)
         code_string = get_code_string(base)
         result = 0
